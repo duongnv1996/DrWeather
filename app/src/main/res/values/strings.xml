@@ -1,6 +1,7 @@
 <resources>
     <string name="app_name">DrWeather</string>
     <string name="temp">°</string>
-
+    <string name="min_max_temp" formatted="false">%d° / %d° </string>
     <string name="api_key">722fc1208ffe3fa0d1f667702ca0fc9c</string>
+    <string name="dang_xu_ly">Đang xử lý</string>
 </resources>

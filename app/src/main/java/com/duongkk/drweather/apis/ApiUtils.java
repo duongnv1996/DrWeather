@@ -8,7 +8,7 @@ import retrofit2.converter.gson.GsonConverterFactory;
  */
 public class ApiUtils {
     public static Retrofit getRootApi(){
-        Retrofit retrofit = new Retrofit.Builder().baseUrl("https://api.stackexchange.com/2.2/").addConverterFactory(GsonConverterFactory.create()).build();
+        Retrofit retrofit = new Retrofit.Builder().baseUrl("http://api.openweathermap.org/data/2.5/").addConverterFactory(GsonConverterFactory.create()).build();
         return retrofit;
     }
 }
